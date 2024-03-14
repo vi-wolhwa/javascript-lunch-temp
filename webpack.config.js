@@ -1,16 +1,12 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-
 module.exports = {
   mode: 'development',
   entry: './src/index.js',
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    clean: true,
-
-    // NOTE: 이미지(정적자원) 빌드 안되는 문제 해결
-    publicPath: '/javascript-lunch-temp/'
+    clean: true
   },
   resolve: {
     extensions: ['.ts', '.js', '.mjs']
@@ -46,6 +42,9 @@ module.exports = {
   devServer: {
     static: './dist',
     hot: true,
-    open: true
+    open: true,
+    devMiddleware: {
+      writeToDisk: true
+    }
   }
 };
