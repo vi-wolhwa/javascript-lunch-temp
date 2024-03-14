@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/woowacourse/javascript-lunch.git"
+    "url": "git+https://github.com/vi-wolhwa/javascript-lunch-temp.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/woowacourse/javascript-lunch/issues"
+    "url": "https://github.com/vi-wolhwa/javascript-lunch-temp/issues"
   },
-  "homepage": "https://github.com/woowacourse/javascript-lunch#readme",
+  "homepage": "https://github.com/vi-wolhwa/javascript-lunch-temp#readme",
   "devDependencies": {
     "@babel/core": "^7.20.12",
     "@babel/preset-env": "^7.20.2",
