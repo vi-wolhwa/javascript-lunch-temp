@@ -16,4 +16,4 @@ import './components/RestCardComponent';
 import './components/CustomModalComponent';
 import './components/AddRestFormComponent';
 
-import './controllers/AppController';
+// import './controllers/AppController';
